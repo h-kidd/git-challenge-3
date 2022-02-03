@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useDispatch } from 'react-redux';
-import getResult from '../../actions/index'
+import { getResult } from '../../actions/index'
 
 function SearchForm() {
 
@@ -38,3 +38,5 @@ function SearchForm() {
         </div>
     );
 };
+
+export default SearchForm;
